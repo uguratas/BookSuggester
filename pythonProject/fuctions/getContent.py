@@ -7,8 +7,10 @@ import json
 
 def content(search_term):
     bookInfos = []
-    for x in range(0, 1):
-        my_url = "https://www.kitapyurdu.com/index.php?route=product/search&page={}&filter_name={}".format(x, search_term)
+    #Test aşamasında fazla beklenmemesi için 150 tane kitap gösteriyoruz.
+    #Taradığımız her sayfada 50 kitap var ve biz 3 sayfa tarıyoruz.
+    for x in range(0, 3):
+        my_url = "https://www.kitapyurdu.com/index.php?route=product/search&page={}&filter_name={}&limit=50".format(x, search_term)
 
         links = []
         client = uReq(my_url)
