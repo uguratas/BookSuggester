@@ -25,4 +25,4 @@ PyQt5-Qt5 5.15.2
 PyQt5-sip 12.11.0
 beautifulsoup4 4.11.1
 
-Uygulama Türkçe karakter tanımıyor ve boşluk yerine '-' işaretini kullanınız.
+Uygulama Türkçe karakter tanımıyor ve boşluk yerine '-' işaretini kullanınız.Kitap kategorisi ararsanız daha sağlıklı çalışıyor uygulama.
