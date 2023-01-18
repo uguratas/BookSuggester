@@ -4,7 +4,7 @@ GEREKSİNİMLER
 PyCharm
 Python 3.11.1
 
-Add python.exe to Path seçeneğini işaretleyin ve Custumize installation'a basarak devam edin. 
+Add python.exe to Path seçeneğini işaretleyin ve Customize installation'a basarak devam edin. 
 Bütün seçenekleri işaretleyin ve devam edin
 -Ardından Install Python 3.11 for all users
 -Associate files with Python 
